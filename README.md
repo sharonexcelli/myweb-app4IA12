@@ -1,6 +1,6 @@
 # myweb-app4IA12
 
-<p>membuat web profile menggunakan laravel versi 8, tugas pemrograman web</p>
+<br>membuat web profile menggunakan laravel versi 8, tugas pemrograman web</br>
 <br>npm : 57418241</br>
 <br>kelas : 4IA12</br>
 
