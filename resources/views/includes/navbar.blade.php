@@ -18,7 +18,7 @@
                 <a class="nav-link" href="#">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="page-scroll" href="#experience">Experience</a>
+                <a class="nav-link" href="#experience">Experience</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Education</a>
