@@ -7,7 +7,7 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        
+
 
         <!-- Styles -->
 
@@ -29,10 +29,11 @@
   </head>
   <body>
       @include('includes.navbar')
-      <div class="wrap container">
+      <div class="wrap">
         <div id="main" class="row">
           <div class="col-md-12">
             @include('pages.header')
+            @include('pages.experience')
           </div>
         </div>
       </div>
