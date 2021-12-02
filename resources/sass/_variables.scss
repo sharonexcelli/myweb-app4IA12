@@ -3,6 +3,8 @@ html,
 body {
     max-width: 100%;
     overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 $blue: #007bff !default;
@@ -15,6 +17,7 @@ $yellow: #ffc107 !default;
 $green: #28a745 !default;
 $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
+$light: #f8f9fa !default;
 // My Own colour
 $black_primary: #232323;
 // Fonts
@@ -28,3 +31,24 @@ $font-family-opensans: 'Open Sans',
 sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+// Misc Style
+section h2.section-heading {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase !important;
+    color: $black_primary;
+}
+
+section h3.section-subheading {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Nunito', sans-serif;
+    text-transform: none;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 47px;
+    margin-top: 20px !important;
+    color: #222222;
+}

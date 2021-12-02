@@ -1,6 +1,13 @@
 // Variables
 @import 'variables';
 @import 'header';
+@import 'portfolio';
 @import 'experience';
 // Bootstrap
 @import '~admin-lte/build/scss/adminlte';
+//fontawesome
+$fa-font-path: "../webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/regular";
