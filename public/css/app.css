@@ -57,7 +57,7 @@ section h3.section-subheading {
 
 section#portfolio {
   background-color: #f8f9fa;
-  padding: 40px 0;
+  padding-top: 110px;
   padding-bottom: 110px;
 }
 section#portfolio .img-responsive {
@@ -313,8 +313,14 @@ section#portfolio img::-moz-selection {
 }
 
 section#experience {
-  background-color: #17a2b8;
-  padding: 40px 0;
+  background-color: #B1D4E0;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+section#education {
+  background-color: #FFDFDD;
+  padding-top: 110px;
   padding-bottom: 110px;
 }
 

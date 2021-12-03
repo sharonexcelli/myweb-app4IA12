@@ -2,12 +2,11 @@
     <div class="container">
         <div class="col-md-12">
             <h2 class="section-heading" data-aos="fade-up" data-aos-duration="1500">Portfolio</h2>
-            {{-- <h3 class="section-subheading text-muted" data-aos="fade-up" data-aos-duration="1500">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-            </h3> --}}
-            <br></br>
+            <h3 class="section-subheading text-muted" data-aos="fade-up" data-aos-duration="1500">
+                Side Project
+            </h3>
         </div>
-        <div class="portfolio-wrapper portfolio-container-fluid" data-aos="fade-up" data-aos-duration="1800">
+        <div class="portfolio-wrapper portfolio-container-fluid" data-aos="fade-up" data-aos-duration="1200">
             <div class="portfolio-items d-flex">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid php graphic">
                     <div class="portfolio-item">

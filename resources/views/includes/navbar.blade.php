@@ -21,7 +21,7 @@
                 <a class="nav-link" href="#experience">Experience</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Education</a>
+                <a class="nav-link" href="#education">Education</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
