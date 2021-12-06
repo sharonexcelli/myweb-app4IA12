@@ -32,7 +32,8 @@
       <div class="wrap">
         <div id="main" class="row">
           <div class="col-md-12">
-            @include('pages.header')
+            @include('pages.home')
+            @include('pages.about')
             @include('pages.portfolio')
             @include('pages.experience')
             @include('pages.education')

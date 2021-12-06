@@ -10,24 +10,24 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home
+                <a class="nav-link px-3" href="#home">Home
                       <span class="sr-only">(current)</span>
                     </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link px-3" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#experience">Experience</a>
+                <a class="nav-link px-3" href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#education">Education</a>
+                <a class="nav-link px-3" href="#experience">Experience</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link px-3" href="#education">Education</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Get In Touch</a>
+                <a class="nav-link px-3" href="#">Get In Touch</a>
               </li>
             </ul>
           </div>

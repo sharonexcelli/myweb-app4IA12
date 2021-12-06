@@ -15,7 +15,7 @@
 
             <div class="col-lg-8" data-aos="fade-right" data-aos-duration="1500">
                 <h4 class="mb-0">SMP PGRI 9 Bogor</h4>
-                <p class="lead">Junior High School / PGRI / Bogor</p>
+                <p class="lead">Junior High School / PGRI 9 / Bogor</p>
             </div>
             <div class="col-lg-4 text-lg-right" data-aos="fade-left" data-aos-duration="1500">
             2012 - 2015
@@ -23,7 +23,7 @@
 
             <div class="col-lg-8" data-aos="fade-right" data-aos-duration="1500">
                 <h4 class="mb-0">SMA PGRI 3 Bogor</h4>
-                <p class="lead">High School / PGRI / Bogor</p>
+                <p class="lead">High School / PGRI 3 / Bogor</p>
             </div>
             <div class="col-lg-4 text-lg-right" data-aos="fade-left" data-aos-duration="1500">
             2015 - 2018

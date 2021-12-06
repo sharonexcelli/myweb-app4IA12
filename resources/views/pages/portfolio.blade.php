@@ -11,9 +11,9 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid php graphic">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                            <a href="https://github.com/sharonexcelli/Notebook-Python/tree/main/Face%20Recognition" class="portfolio-link" target="_blank">
                                 <div class="hover-text">
-                                    <h4>Python</h4>
+                                    <h4 style="font-size:30px;">Python Notebook</h4>
                                     <h5>Image Face Recognition</h5>
                                     <div class="clearfix"></div>
                                     <i class="fa fa-plus"></i>
@@ -26,7 +26,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid php graphic">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                            <a href="#" class="portfolio-link" data-toggle="modal">
                                 <div class="hover-text">
                                     <h4>Corel Draw</h4>
                                     <h5>Vektor Hatsune Miku</h5>
@@ -56,7 +56,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid wordpress html bootstrap graphic">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                            <a href="https://drive.google.com/drive/folders/1bKCwiGcpUpcYEG-fSzxi-jZ8qh-8FbO1?usp=sharing" class="portfolio-link" target="_blank">
                                 <div class="hover-text">
                                     <h4>Blender</h4>
                                     <h5>Living Room</h5>

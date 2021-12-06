@@ -80,6 +80,21 @@ section#portfolio {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
+    //
+    .hover-bg .hoper-text>h5 {
+        opacity: 0;
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+        transition: all 0.3s;
+        font-size: 35px;
+    }
+    .hover-bg:hover .hoper-text>h5 {
+        opacity: 1;
+        -webkit-backface-visibility: hidden;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    //
     .hover-bg .hover-text>i {
         opacity: 0;
         -webkit-transform: translateY(0);
