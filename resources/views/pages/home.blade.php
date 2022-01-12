@@ -14,7 +14,7 @@
                     <a href="#"><i class="fab fa-twitter"></i></a>
                     <a href="#"><i class="fab fa-github"></i></a>
                 </div>
-                <a href="#about" class="btn">More</a>
+                <a href="#about" class="btn">More <i class="far fa-caret-square-down"></i></a>
             </div>
         </div>
     </div>

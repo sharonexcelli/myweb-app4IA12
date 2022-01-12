@@ -24,22 +24,22 @@
 
 <!doctype html>
 <html>
-  <head>
-    @include('includes.head')
-  </head>
-  <body>
-      @include('includes.navbar')
-      <div class="wrap">
-        <div id="main" class="row">
-          <div class="col-md-12">
-            @include('pages.home')
-            @include('pages.about')
-            @include('pages.portfolio')
-            @include('pages.experience')
-            @include('pages.education')
-          </div>
+    <head>
+        @include('includes.head')
+    </head>
+    <body>
+        @include('includes.navbar')
+        <div class="wrap">
+            <div id="main" class="row">
+                <div class="col-md-12">
+                    @include('pages.home')
+                    @include('pages.about')
+                    @include('pages.portfolio')
+                    @include('pages.experience')
+                    @include('pages.education')
+                </div>
+            </div>
         </div>
-      </div>
-      @include('includes.footer')
-  </body>
+        @include('includes.footer')
+    </body>
 </html>
