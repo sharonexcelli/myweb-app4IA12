@@ -8,6 +8,7 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
 use App\Models\Experience;
+use App\Models\Portfolio;
 
 class Controller extends BaseController
 {
@@ -16,9 +17,11 @@ class Controller extends BaseController
     public function index()
     {
         $experiences = Experience::latest()->get();
+        $portfolios = Portfolio::latest()->get();
 
         return view('index', [
             'experiences' => $experiences,
+            'portfolios' => $portfolios,
         ]);
     }
 }

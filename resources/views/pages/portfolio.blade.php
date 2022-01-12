@@ -1,136 +1,30 @@
-<section id="portfolio">
-    <div class="container">
-        <div class="col-md-12">
-            <h2 class="section-heading" data-aos="fade-up" data-aos-duration="1500">Portfolio</h2>
-            <h3 class="section-subheading text-muted" data-aos="fade-up" data-aos-duration="1500">
-                Side Project
-            </h3>
-        </div>
-        <div class="portfolio-wrapper portfolio-container-fluid" data-aos="fade-up" data-aos-duration="1200">
-            <div class="portfolio-items d-flex">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid php graphic">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="https://github.com/sharonexcelli/Notebook-Python/tree/main/Face%20Recognition" class="portfolio-link" target="_blank">
-                                <div class="hover-text">
-                                    <h4 style="font-size:30px;">Python Notebook</h4>
-                                    <h5>Image Face Recognition</h5>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="{{url('img/portfolio/img-face-recog.png')}}" class="img-responsive" alt="portfolio-image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid php graphic">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#" class="portfolio-link" data-toggle="modal">
-                                <div class="hover-text">
-                                    <h4>Corel Draw</h4>
-                                    <h5>Vektor Hatsune Miku</h5>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="{{url('img/portfolio/corel-miku.png')}}" class="img-responsive" alt="portfolio-image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid wordpress bootstrap">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                                <div class="hover-text">
-                                    <h4>Corel Draw</h4>
-                                    <h5>Vektor Fairytale Face 205 Series</h5>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="{{url('img/portfolio/fairytale-face-205series.png')}}" class="img-responsive" alt="portfolio-image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid wordpress html bootstrap graphic">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="https://drive.google.com/drive/folders/1bKCwiGcpUpcYEG-fSzxi-jZ8qh-8FbO1?usp=sharing" class="portfolio-link" target="_blank">
-                                <div class="hover-text">
-                                    <h4>Blender</h4>
-                                    <h5>Living Room</h5>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="{{url('img/portfolio/blender-living-room.png')}}" class="img-responsive" alt="portfolio-image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-items d-flex mt-3">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid wordpress graphic">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                                <div class="hover-text">
-                                    <h4>Sketchup</h4>
-                                    <h5>Old Transjakarta</h5>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="{{url('img/portfolio/old-tj.png')}}" class="img-responsive" alt="portfolio-image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid wordpress html graphic">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                                <div class="hover-text">
-                                    <h4>Sketchup</h4>
-                                    <h5>205 Series 3D Model</h5>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="{{url('img/portfolio/205-series-3d-model.png')}}" class="img-responsive" alt="portfolio-image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid wordpress graphic">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                                <div class="hover-text">
-                                    <h4>Sketchup</h4>
-                                    <h5>Interior 205 Series</h5>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="{{url('img/portfolio/205-series-interior.png')}}" class="img-responsive" alt="portfolio-image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid wordpress graphic">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                                <div class="hover-text">
-                                    <h4>PaintTool SAI</h4>
-                                    <h5>DragonNest Lancea Vena Plaga</h5>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="{{url('img/portfolio/DragonNest-Lancea.png')}}" class="img-responsive" alt="portfolio-image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!-- Portfolio Section -->
+<section id="portfolio" class="py-5">
+    <!-- Page Content -->
+    <div class="col-md-12">
+        <h2 class="section-heading" data-aos="fade-up" data-aos-duration="1500">Portfolio</h2>
+        <h3 class="section-subheading text-muted" data-aos="fade-up" data-aos-duration="1500">
+            Side Project
+        </h3>
     </div>
+    <div class="container">
+        <div class="row">
+        <!-- Portfolio -->
+
+        @foreach  ($portfolios as $portfolio)
+
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-0 shadow cardbody-hover">
+                    <img src="{{ $portfolio->image }}" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-0">{{ $portfolio->title }}</h5>
+                        <div class="card-text text-black-50">{{ $portfolio->job }}</div>
+                    </div>
+                </div>
+            </div>
+            @endforeach
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
 </section>
