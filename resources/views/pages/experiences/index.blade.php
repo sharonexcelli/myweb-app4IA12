@@ -72,7 +72,7 @@
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="description">Description</label>
-                                                        <textarea rows="3" name="description" class="form-control" id="description" placeholder="Masukkan deskripsi pekerjaan di sini" required>{{ $item->description }}</textarea>
+                                                        <textarea rows="3" name="description" class="form-control" id="description" placeholder="Masukkan deskripsi pekerjaan di sini"required>{{ $item->description }}</textarea>
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="since">Since</label>

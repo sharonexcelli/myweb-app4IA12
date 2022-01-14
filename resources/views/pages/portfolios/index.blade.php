@@ -25,6 +25,7 @@
                                 <th scope="col">Image</th>
                                 <th scope="col">Title</th>
                                 <th scope="col">Job</th>
+                                <th scope="col">Link</th>
                                 <th scope="col">Action</th>
                             </tr>
                         </thead>
@@ -35,6 +36,7 @@
                                     <td>{{ $item->image }}</td>
                                     <td>{{ $item->title }}</td>
                                     <td>{{ $item->job }}</td>
+                                    <td>{{ $item->link }}</td>
                                     <td>
                                         <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#editModal-{{ $item->id }}">
                                             Edit
@@ -72,6 +74,10 @@
                                                         <label for="job">Job</label>
                                                         <input type="text" name="job" class="form-control" id="job" value="{{ $item->job }}" required>
                                                     </div>
+                                                    <div class="form-group">
+                                                        <label for="link">Link</label>
+                                                        <input type="text" name="link" class="form-control" id="link" value="{{ $item->link }}">
+                                                    </div>
                                                     <button type="submit" class="btn btn-primary">Submit</button>
                                                 </form>
                                             </div>
@@ -108,6 +114,10 @@
                             <div class="form-group">
                                 <label for="job">Job</label>
                                 <input type="text" name="job" class="form-control" id="job" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="link">Link</label>
+                                <input type="text" name="link" class="form-control" id="link">
                             </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>

@@ -15,12 +15,10 @@
 
             <div class="col-xl-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1500">
                 <div class="card border-0 shadow cardbody-hover">
-                    <a href="{{ $portfolio->link }}" class="portfolio-link" >
-                        <img src="{{ $portfolio->image }}" class="card-img-top" alt="...">
+                    <img src="{{ $portfolio->image }}" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-0">{{ $portfolio->title }}</h5>
                         <div class="card-text text-black-50">{{ $portfolio->job }}</div>
-                    </a>
                     </div>
                 </div>
             </div>

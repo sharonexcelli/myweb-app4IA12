@@ -1,4 +1,4 @@
-{{-- <section id="portfolio">
+<section id="portfolio">
     <div class="container">
         <div class="col-md-12">
             <h2 class="section-heading" data-aos="fade-up" data-aos-duration="1500">Portfolio</h2>
@@ -133,4 +133,4 @@
             </div>
         </div>
     </div>
-</section> --}}
+</section>

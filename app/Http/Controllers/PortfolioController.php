@@ -40,6 +40,7 @@ class PortfolioController extends Controller
         $portfolio->image = $request->image;
         $portfolio->title = $request->title;
         $portfolio->job = $request->job;
+        $portfolio->link = $request->link;
         $portfolio->save();
 
         return redirect()->back()->with('success', 'Data added successfully');
@@ -80,6 +81,7 @@ class PortfolioController extends Controller
         $portfolio->image = $request->image;
         $portfolio->title = $request->title;
         $portfolio->job = $request->job;
+        $portfolio->link = $request->link;
         $portfolio->save();
 
         return redirect()->back()->with('success', 'Data updated successfully');
