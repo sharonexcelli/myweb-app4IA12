@@ -25,13 +25,12 @@
 
 <section id="experience">
     <div class="container">
-        <div class="col-md-12">
-            <h2 class="section-heading" data-aos="fade-up" data-aos-duration="1500">Experience</h2>
+        <div class="col-md-12" data-aos="fade-up" data-aos-duration="1500">
+            <h2 class="section-heading">Experience</h2>
+            <div class="devider"></div>
         </div>
-
-        @foreach ($experiences as $experience)
-
         <div class="row mb-5">
+            @foreach ($experiences as $experience)
             <div class="col-lg-8" data-aos="fade-right" data-aos-duration="1500">
                 <h4 class="mb-0">{{ $experience->title }}</h4>
                 <p class="lead">{{ $experience->loc }}</p>
@@ -42,9 +41,7 @@
             <div class="col-lg-4 text-lg-right" data-aos="fade-left" data-aos-duration="1500">
                 {{ $experience->since }}
             </div>
+            @endforeach
         </div>
-
-        @endforeach
-
     </div>
 </section>

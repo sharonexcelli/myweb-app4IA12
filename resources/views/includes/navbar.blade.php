@@ -10,7 +10,7 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link px-3" href="#home">Home
+                <a class="nav-link px-3" href="#">Home
                       <span class="sr-only">(current)</span>
                     </a>
               </li>
@@ -27,7 +27,7 @@
                 <a class="nav-link px-3" href="#education">Education</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-3" href="#">Get In Touch</a>
+                <a class="nav-link px-3" href="#contact">Contact</a>
               </li>
             </ul>
           </div>

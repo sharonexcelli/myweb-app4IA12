@@ -19,3 +19,10 @@
         <p>Portfolios</p>
     </a>
 </li>
+
+<li class="nav-item">
+    <a href="{{ url('edus') }}" class="nav-link">
+        <i class="nav-icon fas fa-bookmark"></i>
+        <p>Educations</p>
+    </a>
+</li>

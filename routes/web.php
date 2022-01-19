@@ -21,3 +21,4 @@ Auth::routes();
 
 Route::resource('experiences', App\Http\Controllers\ExperienceController::class)->middleware('auth');
 Route::resource('portfolios', App\Http\Controllers\PortfolioController::class)->middleware('auth');
+Route::resource('edus', App\Http\Controllers\EduController::class)->middleware('auth');

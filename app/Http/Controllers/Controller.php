@@ -9,6 +9,7 @@ use Illuminate\Routing\Controller as BaseController;
 
 use App\Models\Experience;
 use App\Models\Portfolio;
+use App\Models\Edu;
 
 class Controller extends BaseController
 {
@@ -18,10 +19,12 @@ class Controller extends BaseController
     {
         $experiences = Experience::latest()->get();
         $portfolios = Portfolio::latest()->get();
+        $edus = Edu::latest()->get();
 
         return view('index', [
             'experiences' => $experiences,
             'portfolios' => $portfolios,
+            'edus' => $edus,
         ]);
     }
 }
