@@ -40,6 +40,11 @@ section h3.section-subheading {
   margin: 5px 0 10px;
 }
 
+.nav-link.active {
+  color: white !important;
+  background-color: black;
+}
+
 section#home .row-title {
   min-height: 650px;
 }

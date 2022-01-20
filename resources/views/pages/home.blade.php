@@ -6,7 +6,7 @@
             </div>
             <div class="col-sm-9 text-center" data-aos="fade-up" data-aos-duration="1500">
                 <div class="my-name">Hi, I'm <strong>Sharon</strong></div>
-                <div class="caption">Informatics Engineering Student</div>
+                <div class="caption">Gunadarma College Student</div>
 
                 <div class="media-icons">
                     <a href="https://www.facebook.com/sharon.railfanscilebut"><i class="fab fa-facebook"></i></a>

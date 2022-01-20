@@ -17,6 +17,35 @@
 
 /***/ }),
 
+/***/ "./resources/js/_navbar.js":
+/*!*********************************!*\
+  !*** ./resources/js/_navbar.js ***!
+  \*********************************/
+/***/ (() => {
+
+// Active class on click
+$(document).ready(function () {
+  $('.nav li a').click(function () {
+    $('.nav li a').removeClass('active');
+    $(this).addClass('active');
+  });
+});
+$('a[href*=\\#]:not([href=\\#])').click(function () {
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+
+    if (target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top - target.height() / 5
+      }, 1000);
+      return false;
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -26,6 +55,8 @@
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 __webpack_require__(/*! admin-lte */ "./node_modules/admin-lte/dist/js/adminlte.min.js");
+
+__webpack_require__(/*! ./_navbar */ "./resources/js/_navbar.js");
 
 /***/ }),
 
