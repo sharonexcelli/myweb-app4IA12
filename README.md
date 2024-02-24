@@ -7,6 +7,8 @@
 <br>kelas : 4IA12</br>
 
 kunjungi https://sharonexcelli.000webhostapp.com/ sudah di hosting
+hostingan sudah habis pindah ke https://sharonexcelli.github.io/ (html css biasa)
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
